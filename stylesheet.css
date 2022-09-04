@@ -1,44 +1,158 @@
 body, html {
-    height: 100%;
-    background-color:white;
+    background-color: #f4f4f4;
+    font-family: "Inter",sans-serif;
+}
+
+.main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main h3,p{
+    color: #615e5e;
+}
+
+.main h1 {
+    color: #333;
+}
+
+.header {
+    padding: 100px;
+    padding-bottom: 200px;
+    text-align: center; /* center the text */
+    color: #333;
+}
+
+.header h1 {
+    font-size: 500%;
+    margin-bottom: 0px;
+    height: 100px;
+}
+
+.header p {
+    margin-top: 0%;
+    font-weight: bold;
+}
+
+.footer {
+    padding: 0px; /* Some padding */
+    text-align: center; /* Center text*/
+    width: 100%;
+    color:#615e5e;
+    left: 0;
+    bottom: 0;
+}
+
+/* #6d819c#e4e7ec#55967e#263959 */
+
+/* Navigation bar */
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    padding: 20px;
+    color: #333;
+}
+
+.navbar i {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: #333; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar i:hover {
+    background-color: #f4f4f4; /* Grey background color */
+    color: #55967e; /* Black text color */
+}
+
+#page-link li, #page-link a:link {
+    width: 100px;
+    display: inline;
+    padding-right: 20px;
+    font-weight: bold;
+    font-family: "Inter",sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: #333;
+}
+
+ul#page-link {
+    text-align: right;
+    color: #333;
+    margin-top: 10px;
+}
+
+#page-link a:hover {
+    color: #55967e; /* Black text color */
+}
+
+/* About Me*/
+#area1 ul, #area2 li {
+    text-align: left;
+    font-family: "MS PGothic";
+    line-height: 150%;
+}
+
+#skil_icons {
+    text-align: left;
+    padding-left: 30px;
+}
+
+#skil_icons i {
+    padding-right: 5px;
+}
+
+/* Column of projects pic*/
+.out_column {
     padding: 10px;
 }
 
-header{
-    text-align: center;
-    display: block;
-    position: relative;
-    color: #242424;
+.project_pic {
+    padding-top: 30px;
 }
 
-h1 {
-    position: relative;
-    display: inline-block;
-    margin-bottom: 0;
+.row {
+    display: flex;
   }
-  h1:before {
-    content: '';
-    position: absolute;
-    bottom: -15px;
-    display: inline-block;
-    width: 60px;
-    height: 5px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    background-color: #242424;
-    border-radius: 2px;
-  }
-
-.container{
-    width: 100%;
-}
-
-.row{
+  
+.column {
+    flex: 50%;
     text-align: center;
-    padding: 40px 0 20px 0;
+    padding: 5px;
 }
 
-.w-100{
-    padding: 0 0 20px 0;
+/* Column of projects description*/
+
+.column h3{
+    text-align: left;
 }
+
+.column a {
+    padding: 0px;
+}
+
+.description {
+    line-height: 0%;
+}
+
+.url a:link, .url a:visited {
+    background-color: #878282;
+    color: #f4f4f4;
+    border: 1.5px solid #878282;
+    padding: 12px 15px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+.url a:hover, .url a:active {
+    background-color: #55967e;
+    border: 1px solid #55967e;
+    color: #f4f4f4;
+    border-radius: 12px;
+}
+
+
+
+
