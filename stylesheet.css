@@ -52,7 +52,7 @@ body, html {
     color: #333;
 }
 
-.navbar i {
+#sns-link a {
     float: left; /* Make sure that the links stay side-by-side */
     display: block; /* Change the display to block, for responsive reasons (see below) */
     color: #333; /* White text color */
@@ -61,7 +61,7 @@ body, html {
     text-decoration: none; /* Remove underline */
 }
 
-.navbar i:hover {
+#sns-link a:hover {
     background-color: #f4f4f4; /* Grey background color */
     color: #55967e; /* Black text color */
 }
