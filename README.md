@@ -1,3 +1,1 @@
-# nana0810cornps.github.io
-
-Portfolio Website
+# Portfolio Website
