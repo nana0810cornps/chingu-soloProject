@@ -19,7 +19,7 @@ html,body{
 }
 
 .header_area .main-menu .navbar a{
-    color: var(#32333E);
+    color: #32333E;
 }
 .header_area .main-menu .navbar a:hover{
     color: #55967e; 
@@ -85,7 +85,7 @@ section .img-area, .short-area{
 /* Buttons */
 .about-area .about-title .btn-outline{
     color: white;
-    background: var(--base-color2);
+    background: #55967e;
     border-radius: 8px;
     height: 45px;
     width: 100px;
