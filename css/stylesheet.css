@@ -2,6 +2,13 @@
 @import url(./partials/_globle.css);
 
 /*----------- Index.html -----------*/
+html,body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
 #area1, #area2{
     padding-bottom: 150px;
 }
@@ -9,18 +16,18 @@
 /* Navigation bar */
 .header_area .main-menu{
     padding: 20px 100px 50px 100px;
-    font-family: var(--noto);
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .header_area .main-menu .navbar a{
-    color: var(--base-color2);
+    color: var(#32333E);
 }
 .header_area .main-menu .navbar a:hover{
-    color: var(--main-color); 
+    color: #55967e; 
 }
   
 .header_area .main-menu .navbar .navbar-nav .active{
-    color: var(--main-color);
+    color: #55967e;
 }
 
 /* End Navigation bar */
@@ -53,7 +60,7 @@
 
 /* Footer Area */
 .footer-area{
-    color: var(--base-color2);
+    color: #32333E;
     padding-bottom: 30px;
 }
 /* End Footer */
@@ -74,6 +81,20 @@ section .img-area, .short-area{
 
 .short-area .tool-area h5, i{
     margin-bottom: 20px;
+}
+
+/* Buttons */
+.about-area .about-title .btn-outline{
+    color: white;
+    background: var(--base-color2);
+    border-radius: 8px;
+    height: 45px;
+    width: 100px;
+    padding: 8px;
+}
+
+.about-area .about-title .btn-outline a{
+    padding-right: 20px;
 }
 
 
