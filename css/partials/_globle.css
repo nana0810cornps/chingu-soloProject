@@ -1,0 +1,13 @@
+/* Buttons */
+.about-area .about-title .btn-outline{
+    color: white;
+    background: var(--base-color2);
+    border-radius: 8px;
+    height: 45px;
+    width: 100px;
+    padding: 8px;
+}
+
+.about-area .about-title .btn-outline a{
+    padding-right: 20px;
+}
