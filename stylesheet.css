@@ -1,157 +1,83 @@
-body, html {
-    background-color: #f4f4f4;
-    font-family: "Inter",sans-serif;
-}
+@import url(./partials/_variables.css);
+@import url(./partials/_globle.css);
 
-.main {
-    margin-left: 100px;
-    margin-right: 100px;
+/*----------- Index.html -----------*/
+#area1, #area2{
+    padding-bottom: 150px;
 }
-
-.main h3,p{
-    color: #615e5e;
-}
-
-.main h1 {
-    color: #333;
-}
-
-.header {
-    padding: 100px;
-    padding-bottom: 200px;
-    text-align: center; /* center the text */
-    color: #333;
-}
-
-.header h1 {
-    font-size: 500%;
-    margin-bottom: 0px;
-    height: 100px;
-}
-
-.header p {
-    margin-top: 0%;
-    font-weight: bold;
-}
-
-.footer {
-    padding: 0px; /* Some padding */
-    text-align: center; /* Center text*/
-    width: 100%;
-    color:#615e5e;
-    left: 0;
-    bottom: 0;
-}
-
-/* #6d819c#e4e7ec#55967e#263959 */
 
 /* Navigation bar */
-.navbar {
-    overflow: hidden; /* Hide overflow */
-    padding: 20px;
-    color: #333;
+.header_area .main-menu{
+    padding: 20px 100px 50px 100px;
+    font-family: var(--noto);
 }
 
-#sns-link a {
-    float: left; /* Make sure that the links stay side-by-side */
-    display: block; /* Change the display to block, for responsive reasons (see below) */
-    color: #333; /* White text color */
-    text-align: center; /* Center the text */
-    padding: 14px 20px; /* Add some padding */
-    text-decoration: none; /* Remove underline */
+.header_area .main-menu .navbar a{
+    color: var(--base-color2);
 }
-
-#sns-link a:hover {
-    background-color: #f4f4f4; /* Grey background color */
-    color: #55967e; /* Black text color */
+.header_area .main-menu .navbar a:hover{
+    color: var(--main-color); 
 }
-
-#page-link li, #page-link a:link {
-    width: 100px;
-    display: inline;
-    padding-right: 20px;
-    font-weight: bold;
-    font-family: "Inter",sans-serif;
-    list-style-type: none;
-    text-decoration: none;
-    color: #333;
-}
-
-ul#page-link {
-    text-align: right;
-    color: #333;
-    margin-top: 10px;
-}
-
-#page-link a:hover {
-    color: #55967e; /* Black text color */
-}
-
-/* About Me*/
-#area1 ul, #area2 li {
-    text-align: left;
-    font-family: "MS PGothic";
-    line-height: 150%;
-}
-
-#skil_icons {
-    text-align: left;
-    padding-left: 30px;
-}
-
-#skil_icons i {
-    padding-right: 5px;
-}
-
-/* Column of projects pic*/
-.out_column {
-    padding: 10px;
-}
-
-.project_pic {
-    padding-top: 30px;
-}
-
-.row {
-    display: flex;
-  }
   
-.column {
-    flex: 50%;
-    text-align: center;
-    padding: 5px;
+.header_area .main-menu .navbar .navbar-nav .active{
+    color: var(--main-color);
 }
 
-/* Column of projects description*/
+/* End Navigation bar */
 
-.column h3{
-    text-align: left;
+/* Works Area */
+.works-area .title-text{
+    padding: 50px;
 }
 
-.column a {
-    padding: 0px;
+.works-area .container .works .works-img img{
+    border-radius: 10px;
+    width: 500px;
+}
+/* End Works */
+
+/* About Area */
+.about-area .title-text{
+    padding: 50px;
 }
 
-.description {
-    line-height: 0%;
+.about-area .about-title .text{
+    padding-bottom: 20px;
 }
 
-.url a:link, .url a:visited {
-    background-color: #878282;
-    color: #f4f4f4;
-    border: 1.5px solid #878282;
-    padding: 12px 15px;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 12px;
+.about-area .about-img img{
+    width: 300px;
 }
 
-.url a:hover, .url a:active {
-    background-color: #55967e;
-    border: 1px solid #55967e;
-    color: #f4f4f4;
-    border-radius: 12px;
+/* End About Area */
+
+/* Footer Area */
+.footer-area{
+    color: var(--base-color2);
+    padding-bottom: 30px;
 }
+/* End Footer */
+
+/*----------- (Selfy).html -----------*/
+section .img-area, .short-area{
+    padding: 100px;
+}
+
+/* Short area */
+.short-area{
+    padding: 60px 150px 60px 150px;
+}
+
+.short-area .area-title  h1{
+    margin-bottom: 45px;
+}
+
+.short-area .tool-area h5, i{
+    margin-bottom: 20px;
+}
+
+
+
 
 
 
