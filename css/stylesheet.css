@@ -85,7 +85,7 @@ section .img-area, .short-area{
 /* Buttons */
 .about-area .about-title .btn-outline{
     color: white;
-    background: #55967e;
+    background: #32333E;
     border-radius: 8px;
     height: 45px;
     width: 100px;
